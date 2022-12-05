@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./html2canvas.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="bg"></div>
+
+        <div id="second"></div>
+
+        <div id="input">
+            <div id="output">#000000</div>
+            <p>
+                R : 0<input type="range" min="0" max="255" id="rRange" class="cRange"> 255
+            </p>
+            <p>
+                G : 0<input type="range" min="0" max="255" id="gRange" class="cRange"> 255
+            </p>
+            <p>
+                B : 0<input type="range" min="0" max="255" id="bRange" class="cRange"> 255
+            </p>
+            <p class="run">Opacity :
+                <label class="switch">
+                    <input type="checkbox" id="run">
+            <span class="slider"></span>
+            </label>
+            </p>
+            <p>
+                0 <input type="range" min="0" max="100" id="oRange" class="cRange"> 1
+            </p>
+            <button id="random">Random color</button>
+            <button id="btn">Download as wallpapper</button>
+        </div>
+    </div>
+
+
+    <script src="./index.js "></script>
+</body>
+
+</html>
